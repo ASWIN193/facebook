@@ -1,37 +1,87 @@
-.main{
-    background-color: #f7f7f7;
-}
-.row{
+.fac_1{
+    width: auto;
+    height: 600px;
     margin-top: 150px;
 }
-.col-sm-1{
-    height: auto;
-    width: auto;
-}
-.col-sm-6{
-    width: 100%;
-    height:auto;
-}
-.col-sm-5{
-    width: 100%;
-    height: 550px;
+@media screen and (max-width: 700px){
+    .fac_1{
+        margin-top: 0px;
+    }
 } 
-.center{
+.fac_2{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+@media screen and (max-width:700px) {
+    .fac_2{
+        height: 250px;
+    }
+}
+.f2_1{
+    width: auto;
+    height: 300px;
+}
+@media  screen and (max-width:700px) {
+    .f2_1{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+
+    }
+} 
+.f2_2{
+    width: 300px;
+    height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    height: 150px;
-    width: 300px;
 }
-.fac_text{
+.f2_3{
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        width: 480px;
+        margin-left:350px;
+        text-align:left;
+        margin-top: -20px;
+}
+@media screen and (max-width:1000px) {
+    .f2_3{
+        font-size: 25px;
+        font-weight: normal;
+        width: 400px;
+        line-height: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+.fac_3{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+.f3_1{
+    width: 400px;
+    height: 500px;
+    border-radius:10px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f3_2{
+    width: 400px;
+    height: 400px;
+    background-color:#ffffff;
+    border-radius:10px ;
+}
+.f3_3{
     width: 360px;
     height: 50px;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.fac_but1{
+.f3_4{
     width: 360px;
     height: 50px;
     margin-left: 20px;
@@ -41,12 +91,12 @@
     color: white;
     font-weight: bold;
 }
-.fac_msg1{
+.f3_5{
     color:blue;
     text-align: center;
     margin: 20px;
 }
-.fac_btn2{
+.f3_6{
     width: 360px;
     height: 50px;
     margin-left: 20px;
@@ -56,39 +106,8 @@
     color: white;
     font-weight: bold; 
 }
-.fac_msg2{
+.f3_7{
     color: black;
     text-align: center;
     margin: 25px;
-}
-.fac_main{
-    width: 400px;
-    height: 500px;
-    border-radius:10px ;
-    margin-left: 75px; 
-}
-
-
-
-
-.fac_icon1{
-}
-.text_1{
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-}
-
-
-
-
-.fac_text{
-    font-size: 28px;
-} 
-.fac_form{
-    width: 400px;
-    height: 400px;
-    background-color:#ffffff;
-    border-radius:10px ;
 }
