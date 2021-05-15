@@ -1,3 +1,5 @@
+/*LOGIN */
+
 .fac_1{
     width: auto;
     height: 600px;
@@ -50,7 +52,7 @@
     .f2_3{
         font-size: 25px;
         font-weight: normal;
-        width: 400px;
+        /*width: 400px; */
         line-height: 32px;
         margin-left: auto;
         margin-right: auto;
@@ -111,3 +113,133 @@
     text-align: center;
     margin: 25px;
 }
+
+
+
+
+
+/*SIGNUP*/
+
+
+    /*add full-width input fields*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+    }
+    /* set a style for all buttons*/
+    button {
+        background-color: green;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+    /*set styles for the cancel button*/
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: #FF2E00;
+    }
+    /*float cancel and signup buttons and add an equal width*/
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%
+    }
+    /*add padding to container elements*/
+    .container {
+        padding: 16px;
+    }
+    /*define the modal’s background*/
+     
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color:none;
+        padding-top: 60px;
+    }
+    .modal_1{
+        margin-top: 250px;
+        width: 25%;
+        height: 550px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid gray;
+        border-radius: 10px;
+      }
+
+
+
+   /* .modal {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        border: solid black;
+        border-radius: 10px;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 25%;
+        height: 500px;
+        overflow: auto;
+        background-color: #f7f7f7;
+        padding-top: 60px;
+    } */
+    /*define the modal-content background*/
+     
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    /*define the close button*/
+     
+    .close {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        color: #000;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    /*define the close hover and focus effects*/
+     
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+     
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+     
+    @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+            width: 100%;
+        }
+    }
+    .s1{
+        background-color: black;
+        width: 300px;
+        height: 400px;
+    }
